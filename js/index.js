@@ -27,4 +27,4 @@ function toggleNav() {
         navBar.classList.add('hidden-nav');
         navIcon.classList.remove('open');
     }
-}
+} 

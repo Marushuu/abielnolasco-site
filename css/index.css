@@ -27,7 +27,6 @@ h1 {
 h2 {
     font-weight: 300;
     color: #202020;
-    font-style: italic;
 }
 
 .baybayin {
@@ -45,15 +44,25 @@ h2 {
     min-height: 100vh;
     padding-left: 10%;
     padding-right: 10%;
+    background: rgb(240, 240, 240);
 }
 
 .section {
     display: grid;
     place-items: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 120vh;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 35vh;
+    background: rgb(200, 200, 200);
 }
 
 .navbar {
