@@ -36,6 +36,10 @@ h2 {
     font-style: italic;
 }
 
+.hero-item {
+    margin: 0%;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
