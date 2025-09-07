@@ -13,6 +13,19 @@ body {
     margin: 0rem;
 }
 
+hr {
+    border: none;
+    height: 0.15rem;
+    opacity: 25%;
+    background-color: #202020;
+    margin: 1rem;
+}
+
+p {
+    color: #202020;
+    text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
     color: #202020;
@@ -27,6 +40,10 @@ h1 {
 h2 {
     font-weight: 300;
     color: #202020;
+}
+
+.left-text {
+    text-align: left
 }
 
 .baybayin {
@@ -58,6 +75,14 @@ h2 {
     min-height: 120vh;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    align-items: center;
 }
 
 .footer {
